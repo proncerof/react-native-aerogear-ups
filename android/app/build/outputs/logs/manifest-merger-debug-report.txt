@@ -1,0 +1,364 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:1:1-32:12
+INJECTED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:1:1-32:12
+INJECTED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:1:1-32:12
+INJECTED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:1:1-32:12
+MERGED from [org.jboss.aerogear:aerogear-android-push:5.1.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\aerogear-android-push-5.1.0.aar\38dacba7cf3be2346bcf05786c7cab45\AndroidManifest.xml:18:1-35:12
+MERGED from [org.jboss.aerogear:aerogear-android-pipe:4.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\aerogear-android-pipe-4.0.0.aar\27f188f6101f5aa0bdd84a9dc679fa39\AndroidManifest.xml:2:1-12:12
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\aea776a63b9639993d8454fe3ff5dd75\AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc01.aar\9f8566169b8e6fe513d0b17237af11e4\AndroidManifest.xml:17:1-22:12
+MERGED from [org.jboss.aerogear:aerogear-android-core:4.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\aerogear-android-core-4.0.0.aar\9581a7ab2671deecaf7b40166867589c\AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.0.aar\148d55986d1a697798f286305416eb13\AndroidManifest.xml:17:1-37:12
+MERGED from [com.android.support:support-fragment:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc01.aar\eca8c5d988f32c81f6542a60fa6a3614\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc01.aar\866a21e127c96da763846d834c429d99\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc01.aar\340fd4f9adb91b4de6070eb052cf504b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc01.aar\1f68b167edaa5c47bea0866840eade89\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc01.aar\07af205bd720385487ff2725182fb0e1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc01.aar\1ebd27051f1897a816abfbaf5668325c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc01.aar\16e98d61c6a4abec3ffdd996cbb060ae\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc01.aar\c8f56f31ae7d45aa29e7102511a359ff\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc01.aar\54e90bbe2094779de611a42b82d4b9d6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc01.aar\b9dc1eabaa530df3ba05bb8badbc0746\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc01.aar\e9b421b0ba4f50fcad8497312fbd797d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc01.aar\8d54acafad4ef0c634f9d12005954ee5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc01.aar\3f75e1f9903b00e4a44ffd60b57025ad\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc01.aar\fbd040c5280aa643347e6a09fa7af2ba\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc01.aar\0cda6e3ec9be017d09c12fcee25b1544\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc01.aar\9a7dc9dc8afcbccdbdb7b56e524649b2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\945cec171639289524d8f14bb7d59a92\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc01.aar\98dbd30ab0290a94b4f06cebcaf4153f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc01.aar\9ee86cd46a32fa04a3be25c047db5662\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc01.aar\90acf86fdcf10c6c8323058a20a6b252\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\15e2cdd152c1e0899ced15269002612c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\7d9a3903dd2212f263fe4495a0886d95\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\6fa4c7bb5fabf729df4113eb3c696fde\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc01.aar\2fa77c958e341c58853d7c4d14ebc976\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-common:16.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.1.aar\d9433d55a21ead019bbd0b224a47e85f\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.0.aar\56749565fbc218679a87ffa0a81e2dfd\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\5fdedb1717779e1d22411e2dd00542c8\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\fbd9f054a1354cbf5b37ccb352495b8e\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-16.0.0.aar\5fdec121ca16860c63945e8ba1bc821b\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\bcd5dbef3093e00f5c010b117b6b597d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\80e1c80f7c67820fb867e20cd9d205d6\AndroidManifest.xml:17:1-28:12
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\3e14c1b83088d55528b161cbda87e10c\AndroidManifest.xml:10:1-18:12
+MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\51e87a92717ba5f09fb2ab1ab1004d17\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\7ffe356039d721e763527753bd0d9c85\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\0195a2b6fbf89cb9504b43b9e93564f8\AndroidManifest.xml:1:1-4:12
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\a37a148fac87deb527ff770992252e6d\AndroidManifest.xml:1:1-3:12
+MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\bcc2b5c1df084eab784e72e9c60fc772\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\3be17d7bda45ebc0fcd2944ebf29a957\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\9ea0a1c96bb85c71196c275529cf6799\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\82613391eaf5eee114231fa39319a127\AndroidManifest.xml:2:1-9:12
+INJECTED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:1:1-32:12
+INJECTED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:1:1-32:12
+INJECTED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:1:1-32:12
+	package
+		ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:2:5-41
+		INJECTED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:1:1-32:12
+		INJECTED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:1:1-32:12
+		INJECTED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\aea776a63b9639993d8454fe3ff5dd75\AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\aea776a63b9639993d8454fe3ff5dd75\AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:5:22-75
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:6:22-68
+application
+ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:8:5-30:19
+MERGED from [org.jboss.aerogear:aerogear-android-push:5.1.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\aerogear-android-push-5.1.0.aar\38dacba7cf3be2346bcf05786c7cab45\AndroidManifest.xml:27:5-33:19
+MERGED from [org.jboss.aerogear:aerogear-android-push:5.1.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\aerogear-android-push-5.1.0.aar\38dacba7cf3be2346bcf05786c7cab45\AndroidManifest.xml:27:5-33:19
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\aea776a63b9639993d8454fe3ff5dd75\AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\aea776a63b9639993d8454fe3ff5dd75\AndroidManifest.xml:13:5-20
+MERGED from [com.google.firebase:firebase-messaging:17.3.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.0.aar\148d55986d1a697798f286305416eb13\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.0.aar\148d55986d1a697798f286305416eb13\AndroidManifest.xml:22:5-35:19
+MERGED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc01.aar\fbd040c5280aa643347e6a09fa7af2ba\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc01.aar\fbd040c5280aa643347e6a09fa7af2ba\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc01.aar\0cda6e3ec9be017d09c12fcee25b1544\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc01.aar\0cda6e3ec9be017d09c12fcee25b1544\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-common:16.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.1.aar\d9433d55a21ead019bbd0b224a47e85f\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.1.aar\d9433d55a21ead019bbd0b224a47e85f\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.0.aar\56749565fbc218679a87ffa0a81e2dfd\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.0.aar\56749565fbc218679a87ffa0a81e2dfd\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\5fdedb1717779e1d22411e2dd00542c8\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\5fdedb1717779e1d22411e2dd00542c8\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\fbd9f054a1354cbf5b37ccb352495b8e\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\fbd9f054a1354cbf5b37ccb352495b8e\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-16.0.0.aar\5fdec121ca16860c63945e8ba1bc821b\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-16.0.0.aar\5fdec121ca16860c63945e8ba1bc821b\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\bcd5dbef3093e00f5c010b117b6b597d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\bcd5dbef3093e00f5c010b117b6b597d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\80e1c80f7c67820fb867e20cd9d205d6\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\80e1c80f7c67820fb867e20cd9d205d6\AndroidManifest.xml:22:5-26:19
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\0195a2b6fbf89cb9504b43b9e93564f8\AndroidManifest.xml:3:3-17
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\0195a2b6fbf89cb9504b43b9e93564f8\AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\a37a148fac87deb527ff770992252e6d\AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\a37a148fac87deb527ff770992252e6d\AndroidManifest.xml:2:3-17
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc01.aar\fbd040c5280aa643347e6a09fa7af2ba\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:10:7-39
+	android:icon
+		ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:11:7-41
+	android:allowBackup
+		ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:12:7-34
+	android:theme
+		ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:13:7-38
+	android:name
+		ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:9:7-38
+meta-data#DEFAULT_MESSAGE_HANDLER_KEY
+ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:15:9-17:88
+	android:value
+		ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:17:13-85
+	android:name
+		ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:16:13-55
+activity#com.reactnativeaerogearups.MainActivity
+ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:19:7-28:18
+	android:label
+		ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:21:9-41
+	android:windowSoftInputMode
+		ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:23:9-51
+	android:configChanges
+		ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:22:9-79
+	android:name
+		ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:20:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:24:9-27:25
+action#android.intent.action.MAIN
+ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:25:13-65
+	android:name
+		ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:25:21-62
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:26:13-73
+	android:name
+		ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:26:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:29:7-84
+	android:name
+		ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:29:17-81
+uses-sdk
+INJECTED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml
+MERGED from [org.jboss.aerogear:aerogear-android-push:5.1.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\aerogear-android-push-5.1.0.aar\38dacba7cf3be2346bcf05786c7cab45\AndroidManifest.xml:23:5-25:41
+MERGED from [org.jboss.aerogear:aerogear-android-push:5.1.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\aerogear-android-push-5.1.0.aar\38dacba7cf3be2346bcf05786c7cab45\AndroidManifest.xml:23:5-25:41
+MERGED from [org.jboss.aerogear:aerogear-android-pipe:4.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\aerogear-android-pipe-4.0.0.aar\27f188f6101f5aa0bdd84a9dc679fa39\AndroidManifest.xml:8:5-10:41
+MERGED from [org.jboss.aerogear:aerogear-android-pipe:4.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\aerogear-android-pipe-4.0.0.aar\27f188f6101f5aa0bdd84a9dc679fa39\AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\aea776a63b9639993d8454fe3ff5dd75\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\aea776a63b9639993d8454fe3ff5dd75\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc01.aar\9f8566169b8e6fe513d0b17237af11e4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc01.aar\9f8566169b8e6fe513d0b17237af11e4\AndroidManifest.xml:20:5-44
+MERGED from [org.jboss.aerogear:aerogear-android-core:4.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\aerogear-android-core-4.0.0.aar\9581a7ab2671deecaf7b40166867589c\AndroidManifest.xml:8:5-10:41
+MERGED from [org.jboss.aerogear:aerogear-android-core:4.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\aerogear-android-core-4.0.0.aar\9581a7ab2671deecaf7b40166867589c\AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.firebase:firebase-messaging:17.3.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.0.aar\148d55986d1a697798f286305416eb13\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.0.aar\148d55986d1a697798f286305416eb13\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc01.aar\eca8c5d988f32c81f6542a60fa6a3614\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc01.aar\eca8c5d988f32c81f6542a60fa6a3614\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc01.aar\866a21e127c96da763846d834c429d99\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc01.aar\866a21e127c96da763846d834c429d99\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc01.aar\340fd4f9adb91b4de6070eb052cf504b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc01.aar\340fd4f9adb91b4de6070eb052cf504b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc01.aar\1f68b167edaa5c47bea0866840eade89\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc01.aar\1f68b167edaa5c47bea0866840eade89\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc01.aar\07af205bd720385487ff2725182fb0e1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc01.aar\07af205bd720385487ff2725182fb0e1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc01.aar\1ebd27051f1897a816abfbaf5668325c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc01.aar\1ebd27051f1897a816abfbaf5668325c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc01.aar\16e98d61c6a4abec3ffdd996cbb060ae\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc01.aar\16e98d61c6a4abec3ffdd996cbb060ae\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc01.aar\c8f56f31ae7d45aa29e7102511a359ff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc01.aar\c8f56f31ae7d45aa29e7102511a359ff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc01.aar\54e90bbe2094779de611a42b82d4b9d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc01.aar\54e90bbe2094779de611a42b82d4b9d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc01.aar\b9dc1eabaa530df3ba05bb8badbc0746\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc01.aar\b9dc1eabaa530df3ba05bb8badbc0746\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc01.aar\e9b421b0ba4f50fcad8497312fbd797d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc01.aar\e9b421b0ba4f50fcad8497312fbd797d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc01.aar\8d54acafad4ef0c634f9d12005954ee5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc01.aar\8d54acafad4ef0c634f9d12005954ee5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc01.aar\3f75e1f9903b00e4a44ffd60b57025ad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc01.aar\3f75e1f9903b00e4a44ffd60b57025ad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc01.aar\fbd040c5280aa643347e6a09fa7af2ba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc01.aar\fbd040c5280aa643347e6a09fa7af2ba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc01.aar\0cda6e3ec9be017d09c12fcee25b1544\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc01.aar\0cda6e3ec9be017d09c12fcee25b1544\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc01.aar\9a7dc9dc8afcbccdbdb7b56e524649b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc01.aar\9a7dc9dc8afcbccdbdb7b56e524649b2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\945cec171639289524d8f14bb7d59a92\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\945cec171639289524d8f14bb7d59a92\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc01.aar\98dbd30ab0290a94b4f06cebcaf4153f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc01.aar\98dbd30ab0290a94b4f06cebcaf4153f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc01.aar\9ee86cd46a32fa04a3be25c047db5662\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc01.aar\9ee86cd46a32fa04a3be25c047db5662\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc01.aar\90acf86fdcf10c6c8323058a20a6b252\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc01.aar\90acf86fdcf10c6c8323058a20a6b252\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\15e2cdd152c1e0899ced15269002612c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\15e2cdd152c1e0899ced15269002612c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\7d9a3903dd2212f263fe4495a0886d95\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\7d9a3903dd2212f263fe4495a0886d95\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\6fa4c7bb5fabf729df4113eb3c696fde\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\6fa4c7bb5fabf729df4113eb3c696fde\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc01.aar\2fa77c958e341c58853d7c4d14ebc976\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc01] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc01.aar\2fa77c958e341c58853d7c4d14ebc976\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.1.aar\d9433d55a21ead019bbd0b224a47e85f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.1.aar\d9433d55a21ead019bbd0b224a47e85f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.0.aar\56749565fbc218679a87ffa0a81e2dfd\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.0.aar\56749565fbc218679a87ffa0a81e2dfd\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\5fdedb1717779e1d22411e2dd00542c8\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\5fdedb1717779e1d22411e2dd00542c8\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\fbd9f054a1354cbf5b37ccb352495b8e\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\fbd9f054a1354cbf5b37ccb352495b8e\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-16.0.0.aar\5fdec121ca16860c63945e8ba1bc821b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-16.0.0.aar\5fdec121ca16860c63945e8ba1bc821b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\bcd5dbef3093e00f5c010b117b6b597d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\bcd5dbef3093e00f5c010b117b6b597d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\80e1c80f7c67820fb867e20cd9d205d6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\80e1c80f7c67820fb867e20cd9d205d6\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\3e14c1b83088d55528b161cbda87e10c\AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\3e14c1b83088d55528b161cbda87e10c\AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\51e87a92717ba5f09fb2ab1ab1004d17\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\51e87a92717ba5f09fb2ab1ab1004d17\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\7ffe356039d721e763527753bd0d9c85\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\7ffe356039d721e763527753bd0d9c85\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\0195a2b6fbf89cb9504b43b9e93564f8\AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\0195a2b6fbf89cb9504b43b9e93564f8\AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\bcc2b5c1df084eab784e72e9c60fc772\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\bcc2b5c1df084eab784e72e9c60fc772\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\3be17d7bda45ebc0fcd2944ebf29a957\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\3be17d7bda45ebc0fcd2944ebf29a957\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\9ea0a1c96bb85c71196c275529cf6799\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\9ea0a1c96bb85c71196c275529cf6799\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\82613391eaf5eee114231fa39319a127\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\82613391eaf5eee114231fa39319a127\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml
+service#org.jboss.aerogear.android.unifiedpush.fcm.AeroGearUPSMessageService
+ADDED from [org.jboss.aerogear:aerogear-android-push:5.1.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\aerogear-android-push-5.1.0.aar\38dacba7cf3be2346bcf05786c7cab45\AndroidManifest.xml:28:9-32:19
+	android:name
+		ADDED from [org.jboss.aerogear:aerogear-android-push:5.1.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\aerogear-android-push-5.1.0.aar\38dacba7cf3be2346bcf05786c7cab45\AndroidManifest.xml:28:18-101
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [org.jboss.aerogear:aerogear-android-push:5.1.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\aerogear-android-push-5.1.0.aar\38dacba7cf3be2346bcf05786c7cab45\AndroidManifest.xml:29:13-31:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [org.jboss.aerogear:aerogear-android-push:5.1.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\aerogear-android-push-5.1.0.aar\38dacba7cf3be2346bcf05786c7cab45\AndroidManifest.xml:30:17-78
+	android:name
+		ADDED from [org.jboss.aerogear:aerogear-android-push:5.1.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\aerogear-android-push-5.1.0.aar\38dacba7cf3be2346bcf05786c7cab45\AndroidManifest.xml:30:25-75
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.3.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.0.aar\148d55986d1a697798f286305416eb13\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.3.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.0.aar\148d55986d1a697798f286305416eb13\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.0.aar\148d55986d1a697798f286305416eb13\AndroidManifest.xml:29:13-82
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:26:22-79
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:30:13-84
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.0.aar\c6fb78b02aa8e7a508695de6ca3b917d\AndroidManifest.xml:54:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.1.aar\d9433d55a21ead019bbd0b224a47e85f\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.1.aar\d9433d55a21ead019bbd0b224a47e85f\AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.1.aar\d9433d55a21ead019bbd0b224a47e85f\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.1.aar\d9433d55a21ead019bbd0b224a47e85f\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.1.aar\d9433d55a21ead019bbd0b224a47e85f\AndroidManifest.xml:11:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\5fdedb1717779e1d22411e2dd00542c8\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\5fdedb1717779e1d22411e2dd00542c8\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\5fdedb1717779e1d22411e2dd00542c8\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\5fdedb1717779e1d22411e2dd00542c8\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\80e1c80f7c67820fb867e20cd9d205d6\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\80e1c80f7c67820fb867e20cd9d205d6\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\proncero\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\80e1c80f7c67820fb867e20cd9d205d6\AndroidManifest.xml:24:13-58
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from C:\Users\proncero\projects\react-native-aerogear-ups\android\app\src\main\AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

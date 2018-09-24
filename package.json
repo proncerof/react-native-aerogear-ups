@@ -1,0 +1,13 @@
+{
+  "name": "react-native-aerogear-ups",
+  "version": "0.1.0",
+  "main": "index.js",
+  "keywords": [
+    "react-native"
+  ],
+  "author": "Pablo Roncero Fernández",
+  "dependencies": {
+    "react": "16.3.1",
+    "react-native": "~0.55.2"
+  }
+}

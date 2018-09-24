@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jboss.aerogear:aerogear-android-push-5.1.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/org.jboss.aerogear/aerogear-android-push/5.1.0/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/org.jboss.aerogear/aerogear-android-push/5.1.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.aerogear/aerogear-android-push/5.1.0/e9e91e7040a20ff805f61f8b1c7db8893f150087/aerogear-android-push-5.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

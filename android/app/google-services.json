@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "453929919359",
+    "firebase_url": "https://mobileapp-f2c34.firebaseio.com",
+    "project_id": "mobileapp-f2c34",
+    "storage_bucket": "mobileapp-f2c34.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453929919359:android:58f262dae23e97f2",
+        "android_client_info": {
+          "package_name": "com.example.proncero.testaerogear"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453929919359-jeicpto9r8vb5tnbgdqifhttml64goft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCp_EfTZWTw_6L5qv7OlIM7CWgkwohHXQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453929919359:android:df4c6b4a1ddfad30",
+        "android_client_info": {
+          "package_name": "com.mobileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453929919359-jeicpto9r8vb5tnbgdqifhttml64goft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCp_EfTZWTw_6L5qv7OlIM7CWgkwohHXQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453929919359:android:11e74ca19561b2bb",
+        "android_client_info": {
+          "package_name": "com.reactnativeaerogearups"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453929919359-jeicpto9r8vb5tnbgdqifhttml64goft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCp_EfTZWTw_6L5qv7OlIM7CWgkwohHXQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453929919359:android:a5b38a613b1be1c5",
+        "android_client_info": {
+          "package_name": "org.jboss.aerogear.android.cookbook.hellopush"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453929919359-jeicpto9r8vb5tnbgdqifhttml64goft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCp_EfTZWTw_6L5qv7OlIM7CWgkwohHXQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
