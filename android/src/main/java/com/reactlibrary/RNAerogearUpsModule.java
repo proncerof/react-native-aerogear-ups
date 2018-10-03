@@ -41,7 +41,8 @@ public class RNAerogearUpsModule extends ReactContextBaseJavaModule implements M
     }
 
     @ReactMethod
-    public void init(String unifiedPushServerURL, String senderId, String variantId, String variantSecret, final Promise promise) {
+    public void init(String unifiedPushServerURL, String senderId, String variantId, String variantSecret,
+            final Promise promise) {
         RegistrarManager.config("register", AeroGearFCMPushConfiguration.class)
                 .setPushServerURI(URI.create(unifiedPushServerURL)).setSenderId(senderId).setVariantID(variantId)
                 .setSecret(variantSecret).asRegistrar();
@@ -76,15 +77,13 @@ public class RNAerogearUpsModule extends ReactContextBaseJavaModule implements M
     }
 
     @ReactMethod
-    public void  unregisterBarMessageHandler() {
+    public void unregisterBarMessageHandler() {
         RegistrarManager.unregisterBackgroundThreadHandler(NotificationBarMessageHandler.getInstance());
     }
 
     @Override
     public void onMessage(Context context, Bundle bundle) {
-        Toast.makeText(context, bundle.getString(UnifiedPushMessage.ALERT_KEY), Toast.LENGTH_LONG).show();
         String message = bundle.getString(UnifiedPushMessage.ALERT_KEY);
-        reactContext.getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter.class)
-                .emit("onMessage", message);
+        reactContext.getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter.class).emit("onMessage", message);
     }
 }

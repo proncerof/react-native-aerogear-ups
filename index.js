@@ -11,9 +11,11 @@ export default class {
    * @param {String} senderId 
    * @param {String} variantId 
    * @param {String} variantSecret 
+   * 
+   * @return {Promise} success or failure
    */
   static init(unifiedPushServerURL, senderId, variantId, variantSecret){
-    RNAerogearUps.init(unifiedPushServerURL, senderId, variantId,variantSecret);
+    return RNAerogearUps.init(unifiedPushServerURL, senderId, variantId,variantSecret);
   }
 
   /**
