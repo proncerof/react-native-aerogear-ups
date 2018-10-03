@@ -60,6 +60,11 @@ Note that currently this module only works with android. In the coming weeks I w
 import RNAerogearUps from 'react-native-aerogear-ups';
 
 // TODO: What to do with the module?
-RNAerogearUps;
+RNAerogearUps.init(
+	"http://<your-ups-server>.com",
+	"<senderId>",
+	"<variantId>",
+	"<variantSecret>"
+);
 ```
   
