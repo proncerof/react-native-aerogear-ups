@@ -18,9 +18,7 @@ package com.reactlibrary;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
-import android.app.PendingIntent;
 import android.content.Context;
-import android.content.Intent;
 import android.graphics.Color;
 import android.media.RingtoneManager;
 import android.os.Build;
@@ -30,6 +28,7 @@ import android.support.v4.app.NotificationCompat;
 
 import org.jboss.aerogear.android.unifiedpush.MessageHandler;
 import org.jboss.aerogear.android.unifiedpush.fcm.UnifiedPushMessage;
+
 
 public class NotificationBarMessageHandler implements MessageHandler {
 
@@ -78,22 +77,12 @@ public class NotificationBarMessageHandler implements MessageHandler {
         String pushMessage = message.getString(UnifiedPushMessage.ALERT_KEY);
         String pushMessageId = message.getString(UnifiedPushMessage.PUSH_MESSAGE_ID);
 
-//        Intent intent = new Intent(context, MessagesActivity.class)
-//                .putExtra(UnifiedPushMessage.ALERT_KEY, pushMessage)
-//                .putExtra(UnifiedPushMessage.PUSH_MESSAGE_ID, pushMessageId)
-//                .putExtra(HelloWorldApplication.PUSH_MESSAGE_FROM_BACKGROUND, true);
-//
-//        PendingIntent contentIntent = PendingIntent.getActivity(context, 0, intent,
-//                PendingIntent.FLAG_UPDATE_CURRENT);
-
         NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context, CHANNEL_ID)
-                .setAutoCancel(true).setSmallIcon(context
-                        .getResources().getIdentifier("ic_launcher", "mipmap", "com.mobilepush"))
+                .setAutoCancel(true).setSmallIcon(R.mipmap.ic_launcher)
                 .setContentTitle(context.getString(R.string.app_name))
                 .setStyle(new NotificationCompat.BigTextStyle().bigText(pushMessage))
                 .setSound(RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION))
                 .setContentText(pushMessage);
-//                .setContentIntent(contentIntent);
 
         NotificationManager mNotificationManager = (NotificationManager) context
                 .getSystemService(Context.NOTIFICATION_SERVICE);

@@ -3,8 +3,6 @@ package com.reactlibrary;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.util.Log;
-import android.widget.Toast;
 
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactApplicationContext;
