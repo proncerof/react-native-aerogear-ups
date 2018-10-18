@@ -12,12 +12,18 @@ Note that currently this module only works with android. In the coming weeks I w
 
 #### Android
 - Add the following line inside dependencies in `<PROJECT_ROOT>/build.gradle`
-	```
+	```java
 	dependencies {
 		...
 		classpath 'com.google.gms:google-services:3.2.1'
 	}
 	```
+
+	- Add the following line at the end of the file `<PROJECT_ROOT>/app/build.gradle`
+	```java
+	apply plugin: 'com.google.gms.google-services'
+	```
+
 - Add the `google-services.json` file to `<PROJECT_ROOT>/app/`. Download the `google-services.json` file as described in the [Google Documentation](https://support.google.com/firebase/answer/7015592?hl=en).
 
 
@@ -46,25 +52,45 @@ Note that currently this module only works with android. In the coming weeks I w
       compile project(':react-native-aerogear-ups')
   	```
 
-#### Windows
-[Read it! :D](https://github.com/ReactWindows/react-native)
-
-1. In Visual Studio add the `RNAerogearUps.sln` in `node_modules/react-native-aerogear-ups/windows/RNAerogearUps.sln` folder to their solution, reference from their app.
-2. Open up your `MainPage.cs` app
-  - Add `using Aerogear.Ups.RNAerogearUps;` to the usings at the top of the file
-  - Add `new RNAerogearUpsPackage()` to the `List<IReactPackage>` returned by the `Packages` method
-
-
 ## Usage
-```javascript
-import RNAerogearUps from 'react-native-aerogear-ups';
+- Import the module in the files that you need it;
+	```javascript
+	import RNAerogearUps from 'react-native-aerogear-ups';
+	```
 
-// TODO: What to do with the module?
-RNAerogearUps.init(
-	"http://<your-ups-server>.com",
-	"<senderId>",
-	"<variantId>",
-	"<variantSecret>"
-);
-```
+- Connect to the server in order to start receiving push notifications
+	```javascript
+	RNAerogearUps.init(
+		"http://<your-ups-server>.com",
+		"<senderId>",
+		"<variantId>",
+		"<variantSecret>"
+	);
+	```
+
+- If you want to receive the notification as an event you need to call the following method:
+	```javascript
+	RNAerogearUps.registerMainMessageHandler()
+	```
+	you also need to import DeviceEventEmitter from react-native and start listening to "onMessage" events.
+	```javascript
+	import { DeviceEventEmitter } from 'react-native'
+
+   DeviceEventEmitter.addListener('onMessage', (message)=>{
+		 //TODO
+	 }
+	```
+	To stop receiving the events call:
+	```javascript
+	RNAerogearUps.unregisterMainMessageHandler()
+	```
+
+- To stop receiving the notifications in the notifications bar call:
+	```javascript
+	RNAerogearUps.unregisterBarMessageHandler()
+	```
+	To start receiving them egain
+	```javascript
+	RNAerogearUps.registerBarMessageHandler()
+	```
   
