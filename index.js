@@ -11,11 +11,12 @@ export default class {
    * @param {String} senderId 
    * @param {String} variantId 
    * @param {String} variantSecret 
+   * @param {String} alias A identifier so the unified push server can send push notifications only to that alias.
    * 
    * @return {Promise} success or failure
    */
-  static init(unifiedPushServerURL, senderId, variantId, variantSecret){
-    return RNAerogearUps.init(unifiedPushServerURL, senderId, variantId,variantSecret);
+  static init(unifiedPushServerURL, senderId, variantId, variantSecret, alias = ""){
+    return RNAerogearUps.init(unifiedPushServerURL, senderId, variantId, variantSecret, alias);
   }
 
   /**
