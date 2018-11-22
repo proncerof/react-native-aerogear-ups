@@ -1,0 +1,6 @@
+framework module Pods_RNAerogearUps {
+  umbrella header "Pods-RNAerogearUps-umbrella.h"
+
+  export *
+  module * { export * }
+}
