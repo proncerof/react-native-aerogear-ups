@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="project_name">UnifiedPush HelloWorld</string>
+    <string name="aerogear_logo">AeroGear Logo</string>
+    <string name="registration_successful">Registration Successful</string>
+    <string name="registration_error">"An error occurred during device registration"</string>
+    <string name="notifications">Notifications</string>
+    <string name="registering">Registering…</string>
+    <string name="nothing_here">Nothing here yet</string>
+    <string name="send_notification">Send notifications from the console</string>
+    <string name="notification_icon">Notification icon</string>
+    <string name="channel_name">Push Channel</string>
+    <string name="channel_description">Notifications from Push Service</string>
+</resources>

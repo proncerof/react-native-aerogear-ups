@@ -3,8 +3,6 @@ package com.reactlibrary;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.util.Log;
-import android.widget.Toast;
 
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactApplicationContext;
@@ -41,11 +39,11 @@ public class RNAerogearUpsModule extends ReactContextBaseJavaModule implements M
     }
 
     @ReactMethod
-    public void init(String unifiedPushServerURL, String senderId, String variantId, String variantSecret,
+    public void init(String unifiedPushServerURL, String senderId, String variantId, String variantSecret, String alias,
             final Promise promise) {
         RegistrarManager.config("register", AeroGearFCMPushConfiguration.class)
                 .setPushServerURI(URI.create(unifiedPushServerURL)).setSenderId(senderId).setVariantID(variantId)
-                .setSecret(variantSecret).asRegistrar();
+                .setSecret(variantSecret).setAlias(alias).asRegistrar();
 
         PushRegistrar registrar = RegistrarManager.getRegistrar("register");
         registrar.register(getReactApplicationContext().getApplicationContext(), new Callback<Void>() {
