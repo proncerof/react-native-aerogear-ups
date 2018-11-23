@@ -1,5 +1,5 @@
 
-import { NativeModules } from 'react-native';
+import { NativeModules, Platform } from 'react-native';
 
 const { RNAerogearUps } = NativeModules;
 
@@ -16,7 +16,8 @@ export default class {
    * @return {Promise} success or failure
    */
   static init(unifiedPushServerURL, senderId, variantId, variantSecret, alias = ""){
-    return RNAerogearUps.init(unifiedPushServerURL, senderId, variantId, variantSecret, alias);
+    if(Platform.OS === "android")
+      return RNAerogearUps.init(unifiedPushServerURL, senderId, variantId, variantSecret, alias);
   }
 
   /**

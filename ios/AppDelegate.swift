@@ -19,7 +19,7 @@ import UIKit
 import AeroGearPush
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, RCTEventEmitter {
     
     var window: UIWindow?
     
@@ -77,7 +77,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
     
+    override func supportedEvents() -> [String]! {
+        return ["success_registered"]
+    }
+    
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        sendEvent(withName: "success_registered", body: ["token": deviceToken])
         // time to register user with the "AeroGear UnifiedPush Server"
         let registration = DeviceRegistration(serverURL: URL(string: "https://test-aerogear.web.cern.ch/")!)
         
