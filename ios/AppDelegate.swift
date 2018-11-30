@@ -1,29 +1,46 @@
 /*
-* JBoss, Home of Professional Open Source.
-* Copyright Red Hat, Inc., and individual contributors
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*     http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/
+ * JBoss, Home of Professional Open Source.
+ * Copyright Red Hat, Inc., and individual contributors
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 
 import UIKit
-import AeroGearPush
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate, RCTEventEmitter {
+class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
+    var bridge: RCTBridge!
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        print("start")
+        
+        var jsCodeLocation = URL(string: "http://194.12.170.75:8081/index.bundle?platform=ios&dev=true")
+        
+        let rootView = RCTRootView(bundleURL:jsCodeLocation, moduleName: "testapp", initialProperties: nil, launchOptions:launchOptions)
+        
+        self.bridge = rootView!.bridge
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        let rootViewController = UIViewController()
+        
+        rootViewController.view = rootView
+        
+        self.window!.rootViewController = rootViewController;
+        self.window!.makeKeyAndVisible()
+        
         // bootstrap the registration process by asking the user to 'Accept' and then register with APNS thereafter
         let settings = UIUserNotificationSettings(types: [.alert, .badge, .sound], categories: nil)
         UIApplication.shared.registerUserNotificationSettings(settings)
@@ -77,12 +94,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, RCTEventEmitter {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
     
-    override func supportedEvents() -> [String]! {
-        return ["success_registered"]
-    }
-    
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
-        sendEvent(withName: "success_registered", body: ["token": deviceToken])
         // time to register user with the "AeroGear UnifiedPush Server"
         let registration = DeviceRegistration(serverURL: URL(string: "https://test-aerogear.web.cern.ch/")!)
         
@@ -100,19 +112,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate, RCTEventEmitter {
             clientInfo.osVersion = currentDevice.systemVersion
             clientInfo.deviceType = currentDevice.model
         },success: {
-                // successfully registered!
-                print("successfully registered asdf with UPS!")
-                
-                // send Notification for success_registered, will be handle by registered ViewController
-                let notification = Notification(name: Notification.Name(rawValue: "success_registered"), object: nil)
-                NotificationCenter.default.post(notification as Notification)
-            },
+            // successfully registered!
+            print("successfully registered asdf with UPS!")
             
-            failure: {(error: Error!) in
-                print("Error Registering with UPS: \(error.localizedDescription)")
-                
-                let notification = Notification(name: Notification.Name(rawValue: "error_register"), object: nil)
-                NotificationCenter.default.post(notification as Notification)
+            // send Notification for success_registered, will be handle by registered ViewController
+            let notification = Notification(name: Notification.Name(rawValue: "success_registered"), object: nil)
+            NotificationCenter.default.post(notification as Notification)
+        },
+          
+          failure: {(error: Error!) in
+            print("Error Registering with UPS: \(error.localizedDescription)")
+            
+            let notification = Notification(name: Notification.Name(rawValue: "error_register"), object: nil)
+            NotificationCenter.default.post(notification as Notification)
         })
     }
     
