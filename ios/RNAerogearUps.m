@@ -1,5 +1,13 @@
 
-#import "React/RCTBridgeModule.h"
+#import "RNAerogearUps.h"
 
-@interface RCT_EXTERN_MODULE(RNAerogearUps, NSObject)
+@implementation RNAerogearUps
+
+- (dispatch_queue_t)methodQueue
+{
+    return dispatch_get_main_queue();
+}
+RCT_EXPORT_MODULE()
+
 @end
+  

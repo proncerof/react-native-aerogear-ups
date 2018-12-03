@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		553F70900D555E320991DE88 /* Pods_RNAerogearUps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B386FA59D5933D2FF027E0 /* Pods_RNAerogearUps.framework */; };
-		66210E2521A6C4DF006F7514 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66210E2421A6C4DF006F7514 /* AppDelegate.swift */; };
-		6623EAC3216E4FEA000582A4 /* RNAerogearUps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6623EAC2216E4FEA000582A4 /* RNAerogearUps.swift */; };
-		66CFA7E221B1911C00E77B53 /* ClientDeviceInformationImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CFA7DE21B1911C00E77B53 /* ClientDeviceInformationImpl.swift */; };
-		66CFA7E321B1911C00E77B53 /* ClientDeviceInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CFA7DF21B1911C00E77B53 /* ClientDeviceInformation.swift */; };
-		66CFA7E421B1911C00E77B53 /* DeviceRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CFA7E021B1911C00E77B53 /* DeviceRegistration.swift */; };
-		66CFA7E521B1911C00E77B53 /* PushAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CFA7E121B1911C00E77B53 /* PushAnalytics.swift */; };
+		66957EE921B53303008EF87F /* RNAerogearUps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66957EE821B53303008EF87F /* RNAerogearUps.swift */; };
+		66957EF321B53576008EF87F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66957EF221B53576008EF87F /* AppDelegate.swift */; };
+		66957EFA21B5471E008EF87F /* ClientDeviceInformationImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66957EF621B5471E008EF87F /* ClientDeviceInformationImpl.swift */; };
+		66957EFB21B5471E008EF87F /* PushAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66957EF721B5471E008EF87F /* PushAnalytics.swift */; };
+		66957EFC21B5471E008EF87F /* ClientDeviceInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66957EF821B5471E008EF87F /* ClientDeviceInformation.swift */; };
+		66957EFD21B5471E008EF87F /* DeviceRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66957EF921B5471E008EF87F /* DeviceRegistration.swift */; };
 		B3E7B58A1CC2AC0600A0062D /* RNAerogearUps.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNAerogearUps.m */; };
 /* End PBXBuildFile section */
 
@@ -30,19 +29,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		01B386FA59D5933D2FF027E0 /* Pods_RNAerogearUps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNAerogearUps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		134814201AA4EA6300B7C361 /* libRNAerogearUps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNAerogearUps.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E435642D50E27FD8DBF3208 /* Pods-RNAerogearUps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAerogearUps.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNAerogearUps/Pods-RNAerogearUps.debug.xcconfig"; sourceTree = "<group>"; };
-		66210E2421A6C4DF006F7514 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6623EAC1216E4FE9000582A4 /* RNAerogearUps-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNAerogearUps-Bridging-Header.h"; sourceTree = "<group>"; };
-		6623EAC2216E4FEA000582A4 /* RNAerogearUps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNAerogearUps.swift; sourceTree = "<group>"; };
-		66CFA7DE21B1911C00E77B53 /* ClientDeviceInformationImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientDeviceInformationImpl.swift; sourceTree = "<group>"; };
-		66CFA7DF21B1911C00E77B53 /* ClientDeviceInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientDeviceInformation.swift; sourceTree = "<group>"; };
-		66CFA7E021B1911C00E77B53 /* DeviceRegistration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceRegistration.swift; sourceTree = "<group>"; };
-		66CFA7E121B1911C00E77B53 /* PushAnalytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushAnalytics.swift; sourceTree = "<group>"; };
+		66957EE721B53303008EF87F /* RNAerogearUps-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNAerogearUps-Bridging-Header.h"; sourceTree = "<group>"; };
+		66957EE821B53303008EF87F /* RNAerogearUps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNAerogearUps.swift; sourceTree = "<group>"; };
+		66957EF221B53576008EF87F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../ios/AppDelegate.swift; sourceTree = "<group>"; };
+		66957EF621B5471E008EF87F /* ClientDeviceInformationImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientDeviceInformationImpl.swift; sourceTree = "<group>"; };
+		66957EF721B5471E008EF87F /* PushAnalytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushAnalytics.swift; sourceTree = "<group>"; };
+		66957EF821B5471E008EF87F /* ClientDeviceInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientDeviceInformation.swift; sourceTree = "<group>"; };
+		66957EF921B5471E008EF87F /* DeviceRegistration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceRegistration.swift; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNAerogearUps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNAerogearUps.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNAerogearUps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNAerogearUps.m; sourceTree = "<group>"; };
-		F78B374619206F1C9ECEA627 /* Pods-RNAerogearUps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAerogearUps.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNAerogearUps/Pods-RNAerogearUps.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,21 +46,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				553F70900D555E320991DE88 /* Pods_RNAerogearUps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02E514A6B0C6D5E6D964D6C3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				01B386FA59D5933D2FF027E0 /* Pods_RNAerogearUps.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		134814211AA4EA7D00B7C361 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,36 +63,25 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				66CFA7E621B1912600E77B53 /* AeroGearPush */,
-				66210E2421A6C4DF006F7514 /* AppDelegate.swift */,
-				6623EAC2216E4FEA000582A4 /* RNAerogearUps.swift */,
+				66957EF421B54663008EF87F /* AeroGearPush */,
+				66957EF221B53576008EF87F /* AppDelegate.swift */,
+				66957EE821B53303008EF87F /* RNAerogearUps.swift */,
 				B3E7B5881CC2AC0600A0062D /* RNAerogearUps.h */,
 				B3E7B5891CC2AC0600A0062D /* RNAerogearUps.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
-				6623EAC1216E4FE9000582A4 /* RNAerogearUps-Bridging-Header.h */,
-				988420D42B4A72F6EFD62783 /* Pods */,
-				02E514A6B0C6D5E6D964D6C3 /* Frameworks */,
+				66957EE721B53303008EF87F /* RNAerogearUps-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
-		66CFA7E621B1912600E77B53 /* AeroGearPush */ = {
+		66957EF421B54663008EF87F /* AeroGearPush */ = {
 			isa = PBXGroup;
 			children = (
-				66CFA7DF21B1911C00E77B53 /* ClientDeviceInformation.swift */,
-				66CFA7DE21B1911C00E77B53 /* ClientDeviceInformationImpl.swift */,
-				66CFA7E021B1911C00E77B53 /* DeviceRegistration.swift */,
-				66CFA7E121B1911C00E77B53 /* PushAnalytics.swift */,
+				66957EF821B5471E008EF87F /* ClientDeviceInformation.swift */,
+				66957EF621B5471E008EF87F /* ClientDeviceInformationImpl.swift */,
+				66957EF921B5471E008EF87F /* DeviceRegistration.swift */,
+				66957EF721B5471E008EF87F /* PushAnalytics.swift */,
 			);
 			path = AeroGearPush;
-			sourceTree = "<group>";
-		};
-		988420D42B4A72F6EFD62783 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4E435642D50E27FD8DBF3208 /* Pods-RNAerogearUps.debug.xcconfig */,
-				F78B374619206F1C9ECEA627 /* Pods-RNAerogearUps.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,7 +91,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNAerogearUps" */;
 			buildPhases = (
-				236B45671CBF6ED412468050 /* [CP] Check Pods Manifest.lock */,
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
 				58B511D91A9E6C8500147676 /* CopyFiles */,
@@ -140,7 +115,7 @@
 				TargetAttributes = {
 					58B511DA1A9E6C8500147676 = {
 						CreatedOnToolsVersion = 6.1.1;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -150,7 +125,6 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = 58B511D21A9E6C8500147676;
 			productRefGroup = 58B511D21A9E6C8500147676;
@@ -162,43 +136,18 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		236B45671CBF6ED412468050 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RNAerogearUps-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		58B511D71A9E6C8500147676 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66CFA7E421B1911C00E77B53 /* DeviceRegistration.swift in Sources */,
-				66CFA7E321B1911C00E77B53 /* ClientDeviceInformation.swift in Sources */,
-				66210E2521A6C4DF006F7514 /* AppDelegate.swift in Sources */,
-				66CFA7E521B1911C00E77B53 /* PushAnalytics.swift in Sources */,
-				66CFA7E221B1911C00E77B53 /* ClientDeviceInformationImpl.swift in Sources */,
-				6623EAC3216E4FEA000582A4 /* RNAerogearUps.swift in Sources */,
+				66957EE921B53303008EF87F /* RNAerogearUps.swift in Sources */,
+				66957EFA21B5471E008EF87F /* ClientDeviceInformationImpl.swift in Sources */,
+				66957EFB21B5471E008EF87F /* PushAnalytics.swift in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* RNAerogearUps.m in Sources */,
+				66957EF321B53576008EF87F /* AppDelegate.swift in Sources */,
+				66957EFC21B5471E008EF87F /* ClientDeviceInformation.swift in Sources */,
+				66957EFD21B5471E008EF87F /* DeviceRegistration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +237,6 @@
 		};
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E435642D50E27FD8DBF3208 /* Pods-RNAerogearUps.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				HEADER_SEARCH_PATHS = (
@@ -310,7 +258,6 @@
 		};
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F78B374619206F1C9ECEA627 /* Pods-RNAerogearUps.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				HEADER_SEARCH_PATHS = (
